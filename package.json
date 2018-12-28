@@ -1,0 +1,18 @@
+{
+  "name": "wasm-sourcemap-path",
+  "version": "0.1.0",
+  "description": "update wasm sourcemap paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wasm_sourcemap_path": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.3.0",
+    "node-fetch": "^2.3.0"
+  }
+}
